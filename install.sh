@@ -19,12 +19,12 @@ mkdir ~/kazul/Wallpapers
 cp .config/bspwm/bspwmrc     ~/kazul/.config/bspwm/bspwmrc
 cp .config/fish/config.fish  ~/kazul/.config/fish/config.fish
 cp .config/kitty/kitty.conf  ~/kazul/.config/bspwm/bspwmrc
-cp .config/neofetch/         ~/kazul/.config/neofetch/
+#cp .config/neofetch/         ~/kazul/.config/neofetch/
 cp .config/nvim/init.vim     ~/kazul/.config/nvim/init.vim
 cp .config/picom/picom.conf  ~/kazul/.config/picom/picom.conf
 cp .config/polybar/config    ~/kazul/.config/polybar/config
 cp .config/polybar/launch.sh ~/kazul/.config/polybar/launch.sh
-cp .config/ranger/           ~/kazul/.config/ranger/
+#cp .config/ranger/           ~/kazul/.config/ranger/
 cp .config/rofi/config       ~/kazul/.config/rofi/config
 cp .config/sxhkd/sxhkdrc     ~/kazul/.config/sxhkd/sxhkdrc
 
@@ -32,3 +32,5 @@ cp victormono/* -R /usr/share/fonts/truetype/
 cp victormononf/* -R /usr/share/fonts/truetype/
 
 cp Wallpapers/wallpaper.jpg ~/kazul/Wallpapers/wallpapers.jpg
+
+chsh -s /usr/bin/fish
