@@ -1,6 +1,6 @@
 #! /bin/sh
 
-apt install bat bspwm cmatrix fish g++ gcc git gucharmap htop kitty lolcat neofetch neovim nitrogen picom polybar ranger rofi sxhkd x11-xkb-utils xorg xserver-xorg-input-all xserver-xorg-video-nouveau 
+apt install bat bspwm cmatrix fish g++ gcc git gucharmap htop kitty lolcat neofetch neovim nitrogen picom polybar ranger rofi sxhkd xrandr x11-xkb-utils xorg xserver-xorg-input-all xserver-xorg-video-nouveau 
 
 mkdir /home/kazul/.config
 mkdir /home/kazul/.config/bspwm
