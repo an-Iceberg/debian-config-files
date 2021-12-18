@@ -18,7 +18,7 @@ mkdir /home/kazul/Wallpapers
 
 cp .config/bspwm/bspwmrc     /home/kazul/.config/bspwm/bspwmrc
 cp .config/fish/config.fish  /home/kazul/.config/fish/config.fish
-cp .config/kitty/kitty.conf  /home/kazul/.config/bspwm/bspwmrc
+cp .config/kitty/kitty.conf  /home/kazul/.config/kitty/kitty.conf
 #cp .config/neofetch/         /home/kazul/.config/neofetch/
 cp .config/nvim/init.vim     /home/kazul/.config/nvim/init.vim
 cp .config/picom/picom.conf  /home/kazul/.config/picom/picom.conf
