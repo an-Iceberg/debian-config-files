@@ -31,4 +31,6 @@ chsh -s /usr/bin/fish
 chmod +x /home/kazul/.config/bspwm/bspwmrc
 chmod +x /home/kazul/.config/polybar/launch.sh
 
-fc-cache -f -v
+fc-cache -f
+
+sudo systemctl reboot

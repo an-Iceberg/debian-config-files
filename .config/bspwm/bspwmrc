@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 setxkbmap ch &
-xrandr -s 1280x720 &
+xrandr -s 1280x800 &
 pkill picom
 picom &
 ~/.config/polybar/launch.sh
