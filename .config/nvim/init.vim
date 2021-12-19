@@ -51,5 +51,5 @@ let g:airline_detect_paste=1
 let g:airline_theme='violet'
 
 highlight CursorLine ctermbg=Black cterm=NONE
-highlight CursorColumn ctermgb=Black
+highlight CursorColumn ctermbg=Black
 highlight Comment cterm=italic ctermfg=Yellow
