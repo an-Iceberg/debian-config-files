@@ -25,11 +25,10 @@ cp .config/polybar/launch.sh /home/kazul/.config/polybar/launch.sh
 cp .config/rofi/config       /home/kazul/.config/rofi/config
 cp .config/sxhkd/sxhkdrc     /home/kazul/.config/sxhkd/sxhkdrc
 
-cp victormono/* -R /usr/share/fonts/truetype/
-cp victormononf/* -R /usr/share/fonts/truetype/
-
 cp Wallpapers/wallpaper.jpg /home/kazul/Wallpapers/wallpapers.jpg
 
 chsh -s /usr/bin/fish
 chmod +x /home/kazul/.config/bspwm/bspwmrc
 chmod +x /home/kazul/.config/polybar/launch.sh
+
+fc-cache -f -v
