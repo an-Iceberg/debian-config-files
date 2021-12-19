@@ -1,9 +1,7 @@
-#! /bin/sh
-
-apt install bat bspwm cmatrix g++ gcc git gucharmap htop kitty lolcat neofetch neovim nitrogen picom polybar ranger rofi sxhkd x11-xkb-utils xorg xserver-xorg-input-all xserver-xorg-video-nouveau 
 
 mkdir /home/kazul/.config
 mkdir /home/kazul/.config/bspwm
+mkdir /home/kazul/.config/fish
 mkdir /home/kazul/.config/kitty
 mkdir /home/kazul/.config/neofetch
 mkdir /home/kazul/.config/nvim
@@ -35,5 +33,3 @@ cp Wallpapers/wallpaper.jpg /home/kazul/Wallpapers/wallpapers.jpg
 chsh -s /usr/bin/fish
 chmod +x /home/kazul/.config/bspwm/bspwmrc
 chmod +x /home/kazul/.config/polybar/launch.sh
-
-systemctl reboot
