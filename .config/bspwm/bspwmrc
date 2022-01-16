@@ -11,15 +11,18 @@ kitty &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
-bspc config border_width 1
+bspc config border_width 2
 bspc config window_gap 2
-bspc config focus_follows_pointer true
 
 bspc config split_ratio 0.5
-bspc config borderless_monocle true
-bspc config gapless_monocle true
 
-# counter=0
-# bspc query -D --names | while read -r name; do
-#   printf 'ws-icon-%i = %s;<insert-icon-here>"\n' $((counter++)) $name
-# done
+#bspc config normal_border_color "#777777"
+#bspc config focused_border_color "#ffffff"
+
+bspc config normal_border_color "#44475a"
+bspc config active_border_color "#bd93f9"
+bspc config focused_border_color "#8be9fd"
+bspc config presel_feedback_color "#ff79c6"
+
+#bspc config active_border_color "#6272a4"
+#bspc config focused_border_color "#8be9fd"

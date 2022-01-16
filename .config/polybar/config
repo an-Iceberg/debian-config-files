@@ -1,12 +1,11 @@
-
 [colors]
-background = #8a2be2
-background-alt = #00aaaa
-foreground = #fff
-foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+background = #bd93f9
+background-alt = #8be9fd
+foreground = #f8f8f2
+foreground-alt = #44475a
+primary = #ffb86c
+secondary = #ff6e67
+alert = #ff5555
 
 [bar/example]
 
@@ -24,7 +23,7 @@ foreground = ${colors.foreground}
 ;line-size = 3
 ;line-color = #f00
 
-border-bottom-size = 1
+border-bottom-size = 2
 border-color = ${colors.background}
 
 padding-left = 0
@@ -33,8 +32,8 @@ padding-right = 1
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = VictorMono\ Nerd\ Font\ Mono:size=12;3
-font-1 = VictorMono\ Nerd\ Font\ Mono:size=26;7
+font-0 = VictorMono\ NF:size=12;3
+font-1 = VictorMono\ NF:size=26;7
 ;font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
@@ -75,7 +74,7 @@ type = internal/xkeyboard
 format-spacing = 0
 format = <label-layout><label-indicator>
 
-label-layout = %{F#0f0}%{B#000}%{F#000}%{B#0f0}%{T2}%{T-} %layout%
+label-layout = %{F#50fa7b}%{B#000}%{F#000}%{B#50fa7b}%{T2}%{T-} %layout%%{F#50fa7b}%{B#000}
 ;label-layout-underline = ${colors.secondary}
 
 label-indicator-padding = 0
@@ -93,20 +92,20 @@ pin-workspaces = true
 ;ws-icon-2 = III;
 ;ws-icon-default = 
 
-label-focused = %{F#8a2be2}%{B#000}%{F#fff}%{B#8a2be2}%index%%{F#8a2be2}%{B#000}
+label-focused = %{F#bd93f9}%{B#000}%{F#f8f8f2}%{B#bd93f9}%index%%{F#bd93f9}%{B#000}
 ;label-focused-background = ${colors.background-alt}
-label-focused-padding = 1
+label-focused-padding = 0
 
-label-occupied = %{F#fff}%index%%icon%
-label-occupied-padding = 1
+label-occupied = %{F#000}%{B#000}%{F#f8f8f2}%{B#010101}%index%%{F#000}%{B#000}
+label-occupied-padding = 0
 
 label-urgent = %index%!
 label-urgent-background = ${colors.alert}
-label-urgent-padding = 1
+label-urgent-padding = 0
 
-label-empty = %index%%icon%
+label-empty = %{F#000}%{B#000}%{F#6272a4}%{B#010101}%index%%{F#000}%{B#000}
 label-empty-foreground = ${colors.foreground-alt}
-label-empty-padding = 1
+label-empty-padding = 0
 
 ; Separator in between workspaces
 ;label-separator = 
@@ -115,7 +114,7 @@ label-empty-padding = 1
 type = internal/cpu
 interval = 1
 
-label = %{F#0ff}%{B#000}%{B#0ff}%{F#000}%{T2}%{T-} %percentage:2%%%{F#000}%{B#0ff}
+label = %{F#8be9fd}%{B#000}%{B#8be9fd}%{F#000}%{T2}%{T-} %percentage:2%%%{F#8be9fd}%{B#000}
 
 format = <label>
 
@@ -125,7 +124,7 @@ interval = 1
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #4bffdc
-label = %{F#f70}%{B#000}%{F#000}%{B#f70}%{T2}%{T-} %percentage_used%%%{F#000}%{B#f70}
+label = %{F#ffb86c}%{B#000}%{F#000}%{B#ffb86c}%{T2}%{T-} %percentage_used%%%{F#ffb86c}%{B#000}
 
 [module/wlan]
 type = internal/network
@@ -179,7 +178,7 @@ format-prefix = 
 format-prefix-foreground = ${colors.foreground-alt}
 ; format-underline = #0a6cf5
 
-label = %{F#f0f}%{B#000}%{F#000}%{B#f0f}%date%%{T2}%{T-} %time%
+label = %{F#ff79c6}%{B#000}%{F#000}%{B#ff79c6}%date%%{T2}%{T-} %time%%{F#ff79c6}%{B#000}
 
 [module/pulseaudio]
 type = internal/pulseaudio
@@ -217,7 +216,7 @@ full-at = 99
 format-charging = <animation-charging> <label-charging>
 ; format-charging-underline = #ffb52a
 
-format-discharging = %{F#000}%{B#ff0}%{F#000}%{B#ff0}<animation-discharging> <label-discharging>%{F#ff0}%{B#000}
+format-discharging = %{F#f1fa8c}%{B#000}%{F#000}%{B#f1fa8c}<animation-discharging> <label-discharging>%{F#f1fa8c}%{B#000}
 ;format-discharging-underline = ${self.format-charging-underline}
 
 format-full-prefix = " "
