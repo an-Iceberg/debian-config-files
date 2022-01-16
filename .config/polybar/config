@@ -32,8 +32,8 @@ padding-right = 1
 module-margin-left = 0
 module-margin-right = 0
 
-font-0 = VictorMono\ NF:size=12;3
-font-1 = VictorMono\ NF:size=26;7
+font-0 = VictorMono\ Nerd\ Font\ Mono:size=12;3
+font-1 = VictorMono\ Nerd\ Font\ Mono:size=26;7
 ;font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
