@@ -24,6 +24,7 @@ cp .config/polybar/launch.sh /home/kazul/.config/polybar/launch.sh
 #cp .config/ranger/           /home/kazul/.config/ranger/
 cp .config/rofi/config       /home/kazul/.config/rofi/config
 cp .config/sxhkd/sxhkdrc     /home/kazul/.config/sxhkd/sxhkdrc
+cp .config/starship.toml /home/kazul/.config/
 
 cp .fehbg /home/kazul/
 
