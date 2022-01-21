@@ -5,6 +5,10 @@ if status is-login
     end
 end
 
+function fish_greeting
+    echo "Welcome back, Commander"
+end
+
 starship init fish | source
 
 alias fcd="cd (find -type d | fzf)"
