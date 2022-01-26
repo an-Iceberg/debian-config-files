@@ -39,5 +39,5 @@ format = "[$hostname](bg:#8be9fd fg:#bd93f9)"
 [git_branch]
 disabled = false
 always_show_remote = true
-format = "[](bg:#ff79c6 fg:#8be9fd)[$remote_name  $symbol$branch](bg:#ff79c6 fg:#21222c)[](bg:#8be9fd fg:#ff79c6)"
+format = "[](fg:#ff79c6 bg:#8be9fd)[$remote_name  $symbol$branch](bg:#ff79c6 fg:#21222c)[](bg:#8be9fd fg:#ff79c6)"
 symbol = ""
