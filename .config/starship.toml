@@ -1,8 +1,8 @@
 # λ █                                
 
 format = '''
-[](bg:#282a36 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f1fa8c)[](bg:#6272a4 fg:#8be9fd)$git_branch[](bg:#8be9fc fg:#282a36)[](bg:#282a36 fg:#8be9fd)$fill[](bg:#282a36 fg:#ff79c6)$time[](bg:#282a36 fg:#ff79c6)
-[  ╰](bg:#282a36 fg:#f8f8f2)[](bg:#282a36 fg:#ffb86c)[](bg:#bd93f9 fg:#ffb86c)[ $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#bd93f9 fg:#8be9fd)[](bg:#bd93f9 fg:#f1fa8c)[](bg:#bd93f9 fg:#8be9fd)[](bg:#bd93f9 fg:#f1fa8c)[](bg:#282a36 fg:#bd93f9) '''
+[](bg:#00000000 fg:#ff5555)[](bg:#6272a4 fg:#ff5555)[⌈$directory⌋](bg:#6272a4 fg:#f1fa8c)[](bg:#6272a4 fg:#8be9fd)$git_branch[](bg:#8be9fc fg:#282a36)[](bg:#00000000 fg:#8be9fd)$fill[](bg:#00000000 fg:#ff79c6)$time[](bg:#00000000 fg:#ff79c6)
+[  ╰](bg:#00000000 fg:#f8f8f2)[](bg:#00000000 fg:#ffb86c)[](bg:#bd93f9 fg:#ffb86c)[ $character ](bg:#bd93f9 fg:#f8f8f2)[](bg:#bd93f9 fg:#8be9fd)[](bg:#bd93f9 fg:#f1fa8c)[](bg:#bd93f9 fg:#8be9fd)[](bg:#bd93f9 fg:#f1fa8c)[](bg:#00000000 fg:#bd93f9) '''
 
 right_format = '''
 [](bg:#282a36 fg:#8be9fd)$username[ @ ](bg:#8be9fd fg:#ff92df)$hostname[](bg:#282a36 fg:#8be9fd)'''
