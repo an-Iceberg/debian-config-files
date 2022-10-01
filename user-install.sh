@@ -32,6 +32,10 @@ chmod +x /home/kazul/.config/sxhkd/sxhkdrc
 chmod +x /home/kazul/.config/polybar/launch.sh
 chmod +x /home/kazul/.fehbg
 
+curl -O https://starship.rs/install.sh
+chmod +x install.sh
+./install.sh
+
 fc-cache -f
 
 sudo systemctl reboot
