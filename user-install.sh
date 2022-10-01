@@ -7,8 +7,6 @@ mkdir /home/kazul/.config/neofetch
 mkdir /home/kazul/.config/nvim
 mkdir /home/kazul/.config/picom
 mkdir /home/kazul/.config/polybar
-mkdir /home/kazul/.config/ranger
-mkdir /home/kazul/.config/rofi
 mkdir /home/kazul/.config/sxhkd
 
 mkdir /home/kazul/Wallpapers
@@ -21,8 +19,6 @@ cp .config/nvim/init.vim     /home/kazul/.config/nvim/init.vim
 cp .config/picom/picom.conf  /home/kazul/.config/picom/picom.conf
 cp .config/polybar/config    /home/kazul/.config/polybar/config
 cp .config/polybar/launch.sh /home/kazul/.config/polybar/launch.sh
-#cp .config/ranger/           /home/kazul/.config/ranger/
-cp .config/rofi/config       /home/kazul/.config/rofi/config
 cp .config/sxhkd/sxhkdrc     /home/kazul/.config/sxhkd/sxhkdrc
 cp .config/starship.toml /home/kazul/.config/
 
@@ -37,8 +33,5 @@ chmod +x /home/kazul/.config/polybar/launch.sh
 chmod +x /home/kazul/.fehbg
 
 fc-cache -f
-
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 sudo systemctl reboot
